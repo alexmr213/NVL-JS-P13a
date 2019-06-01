@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        /* var primos = [];
+         var noprimos = [];
+ 
+ 
+         function numeros(n) {
+             for (var i = 0; i < n; i++) {
+                 var num = i;
+                 
+                 document.write(num+"/");
+                 //console.log(num);
+             
+             if (n%num===0 ) {
+                 noprimos.push(num);
+ 
+             }
+             else {
+                 primos.push(num);
+ 
+             }
+           
+         }
+     }
+                 console.log(primos);
+                 console.log(noprimos);
+               
+                
+ 
+         numeros(50);
+                document.write("<br>"+"Estos numeros son primos: "+primos);
+                document.write("<br>"+"Estos numeros no son primos: "+noprimos);*/
+
+        var primos = [];
+        var noprimos = [];
+        function aleatorio(n) {
+
+            for (var i = 0; i < n; i++) {
+                let num = i;
+                console.log(num);
+                document.write(num + " / ");
+                if (n % i === 0) {
+                    primos.push(num);
+
+                }
+                else {
+                    noprimos.push(num);
+
+                }
+            }
+        }
+        aleatorio(50);
+        console.log(primos);
+        console.log(noprimos);
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
